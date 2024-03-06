@@ -1,7 +1,7 @@
 # ViLLM: End2End Framework for Finetuning - Evaluation - Deployment of Vietnamese Large Language Models
 
 ## What is ViLLM?
-
+ViLLM is an end-to-end framework for finetuning, evaluation, and deployment of Vietnamese large language models. ViLLM is designed to be a comprehensive toolkit for researchers and practitioners to work with large language models in Vietnamese. ViLLM is built on top of Hugging Face's Transformers library and provides a set of tools for finetuning, evaluation, and deployment of large language models. ViLLM is designed to be modular and extensible, allowing users to easily add new models, datasets, and evaluation metrics.
 
 ## How to install ViLLM?
 ### Installing Repo
@@ -28,7 +28,7 @@ cd villm
 
 ```bash
 # Clone the ViLLM repository
-repo init -b main -u https://github.com/koyejo-lab/villm
+repo init -b main -u https://github.com/koyejo-lab/villm.git
 repo sync -j{number_of_threads}
 ```
 

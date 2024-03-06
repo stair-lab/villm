@@ -8,13 +8,13 @@
              sync-c="true"
              sync-j="4" />
     
-    <! -- Finetuning Project -->
+    <!-- Finetuning Project -->
     <project path="finetuning" name="villm-finetune" remote="origin" revision="refs/heads/main" />
 
-     <! -- Evaluation Project -->
+    <!-- Evaluation Project -->
     <project path="evaluation" name="villm-eval" remote="origin" revision="refs/heads/main" />
 
-    <! -- Deploying Project -->
+    <!-- Deploying Project -->
     <project path="deploy" name="villm-deploy" remote="origin" revision="refs/heads/main" />
 
 </manifest>
