@@ -4,7 +4,7 @@
              fetch="https://github.com/koyejo-lab" />
 
     <default revision="refs/heads/main"
-             remote="orgin"
+             remote="origin"
              sync-c="true"
              sync-j="4" />
     

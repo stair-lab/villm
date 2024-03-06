@@ -1,3 +1,6 @@
 .repo
 .git
 .DS_Store
+villm-finetune/
+villm-eval/
+villm-deploy/
