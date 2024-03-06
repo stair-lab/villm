@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote  name="origin"
+             fetch="https://github.com/koyejo-lab" />
+
+    <default revision="refs/heads/main"
+             remote="orgin"
+             sync-c="true"
+             sync-j="4" />
+    
+    <! -- Finetuning Project -->
+    <project path="finetuning" name="villm-finetune" remote="origin" revision="refs/heads/main" />
+
+     <! -- Evaluation Project -->
+    <project path="evaluation" name="villm-eval" remote="origin" revision="refs/heads/main" />
+
+    <! -- Deploying Project -->
+    <project path="deploy" name="villm-deploy" remote="origin" revision="refs/heads/main" />
+
+</manifest>
